@@ -1,0 +1,30 @@
+{
+  "name": "qer",
+  "description": "qer",
+  "keywords": [
+    "qer"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/AZX",
+      "required": true
+    }
+  },
+  "website": "https://github.com/bsnbhye/UOI",
+  "repository": "https://github.com/bsnbhye/UOI",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
